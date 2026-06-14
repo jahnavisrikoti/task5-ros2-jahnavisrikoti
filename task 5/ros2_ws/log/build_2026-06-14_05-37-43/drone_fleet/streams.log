@@ -1,0 +1,66 @@
+[0.010s] Invoking command in '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/src/drone_fleet -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet
+[0.191s] -- The CXX compiler identification is GNU 13.3.0
+[0.222s] -- Detecting CXX compiler ABI info
+[0.338s] -- Detecting CXX compiler ABI info - done
+[0.347s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.348s] -- Detecting CXX compile features
+[0.348s] -- Detecting CXX compile features - done
+[0.353s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.495s] -- Found Python3: /home/jahnavi-srikoti/venv-ardupilot/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.580s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.619s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.666s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.681s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.720s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.804s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.808s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.915s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.939s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.965s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.048s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.066s] -- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.204s] -- Configuring done (1.2s)
+[1.225s] -- Generating done (0.0s)
+[1.233s] -- Build files have been written to: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet
+[1.244s] Invoked command in '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/src/drone_fleet -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet
+[1.245s] Invoking command in '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet -- -j8 -l8
+[1.304s] [ 18%] [32mBuilding CXX object CMakeFiles/health_monitor.dir/src/health_monitor.cpp.o[0m
+[1.304s] [ 18%] [32mBuilding CXX object CMakeFiles/drone_lib.dir/src/Drone.cpp.o[0m
+[1.305s] [ 27%] [32mBuilding CXX object CMakeFiles/drone_lib.dir/src/MissionDrone.cpp.o[0m
+[1.305s] [ 36%] [32mBuilding CXX object CMakeFiles/drone_lib.dir/src/Vehicle.cpp.o[0m
+[1.306s] [ 45%] [32mBuilding CXX object CMakeFiles/drone_lib.dir/src/AutonomousDrone.cpp.o[0m
+[2.140s] [ 54%] [32m[1mLinking CXX static library libdrone_lib.a[0m
+[2.184s] [ 54%] Built target drone_lib
+[2.209s] [ 72%] [32mBuilding CXX object CMakeFiles/fleet_manager.dir/src/fleet_manager.cpp.o[0m
+[2.209s] [ 72%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_node.cpp.o[0m
+[7.643s] [ 81%] [32m[1mLinking CXX executable drone_node[0m
+[7.978s] [ 81%] Built target drone_node
+[10.838s] [ 90%] [32m[1mLinking CXX executable health_monitor[0m
+[11.307s] [ 90%] Built target health_monitor
+[11.969s] [100%] [32m[1mLinking CXX executable fleet_manager[0m
+[12.400s] [100%] Built target fleet_manager
+[12.415s] Invoked command in '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet -- -j8 -l8
+[12.426s] Invoking command in '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet
+[12.436s] -- Install configuration: ""
+[12.436s] -- Execute custom install script
+[12.436s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/lib/drone_fleet/drone_node
+[12.446s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/lib/drone_fleet/fleet_manager
+[12.457s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/lib/drone_fleet/health_monitor
+[12.467s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/launch/fleet.launch.py
+[12.478s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/ament_index/resource_index/package_run_dependencies/drone_fleet
+[12.489s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/ament_index/resource_index/parent_prefix_path/drone_fleet
+[12.498s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.sh
+[12.509s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.dsv
+[12.520s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/environment/path.sh
+[12.529s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/environment/path.dsv
+[12.540s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/local_setup.bash
+[12.550s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/local_setup.sh
+[12.561s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/local_setup.zsh
+[12.572s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/local_setup.dsv
+[12.582s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/package.dsv
+[12.593s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/ament_index/resource_index/packages/drone_fleet
+[12.604s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig.cmake
+[12.614s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig-version.cmake
+[12.625s] -- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/package.xml
+[12.637s] Invoked command in '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet

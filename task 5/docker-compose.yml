@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  # ── Full fleet (single container with all 5 nodes via launch file) ──────────
+  drone_fleet:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ariitk_drone_fleet
+    # Required to allow ROS 2 DDS discovery within the container
+    network_mode: host
+    ipc: host
+    environment:
+      - ROS_DOMAIN_ID=0
+    stdin_open: true
+    tty: true
+    command: ros2 launch drone_fleet fleet.launch.py

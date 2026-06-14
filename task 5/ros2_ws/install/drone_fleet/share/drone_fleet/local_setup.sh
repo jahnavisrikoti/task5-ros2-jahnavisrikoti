@@ -1,0 +1,1 @@
+/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet/ament_cmake_environment_hooks/local_setup.sh

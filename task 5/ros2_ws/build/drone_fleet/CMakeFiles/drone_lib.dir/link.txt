@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdrone_lib.a CMakeFiles/drone_lib.dir/src/Vehicle.cpp.o CMakeFiles/drone_lib.dir/src/Drone.cpp.o CMakeFiles/drone_lib.dir/src/MissionDrone.cpp.o CMakeFiles/drone_lib.dir/src/AutonomousDrone.cpp.o
+/usr/bin/ranlib libdrone_lib.a

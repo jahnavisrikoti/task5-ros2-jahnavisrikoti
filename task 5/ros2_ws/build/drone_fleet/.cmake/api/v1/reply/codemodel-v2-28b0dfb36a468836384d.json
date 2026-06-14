@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-953d2b483ebe7f302a32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "drone_fleet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "drone_fleet_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drone_fleet_uninstall-03b311307f2125c09564.json",
+					"name" : "drone_fleet_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drone_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drone_lib-df75727f8f9c190f14bf.json",
+					"name" : "drone_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drone_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drone_node-53c0a7c6f23fd0af46a1.json",
+					"name" : "drone_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fleet_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fleet_manager-dc7dc1ceb8807c0f155b.json",
+					"name" : "fleet_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "health_monitor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-health_monitor-22845cc6d102f489f62f.json",
+					"name" : "health_monitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0fc2393d548581fa52f5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet",
+		"source" : "/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/src/drone_fleet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,60 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/jahnavi-srikoti/venv-ardupilot/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet
+[ 18%] [32mBuilding CXX object CMakeFiles/health_monitor.dir/src/health_monitor.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/drone_lib.dir/src/Drone.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/drone_lib.dir/src/MissionDrone.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/drone_lib.dir/src/Vehicle.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/drone_lib.dir/src/AutonomousDrone.cpp.o[0m
+[ 54%] [32m[1mLinking CXX static library libdrone_lib.a[0m
+[ 54%] Built target drone_lib
+[ 72%] [32mBuilding CXX object CMakeFiles/fleet_manager.dir/src/fleet_manager.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_node.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable drone_node[0m
+[ 81%] Built target drone_node
+[ 90%] [32m[1mLinking CXX executable health_monitor[0m
+[ 90%] Built target health_monitor
+[100%] [32m[1mLinking CXX executable fleet_manager[0m
+[100%] Built target fleet_manager
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/lib/drone_fleet/drone_node
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/lib/drone_fleet/fleet_manager
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/lib/drone_fleet/health_monitor
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/launch/fleet.launch.py
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/ament_index/resource_index/package_run_dependencies/drone_fleet
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/ament_index/resource_index/parent_prefix_path/drone_fleet
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.sh
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/environment/path.sh
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/environment/path.dsv
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/local_setup.bash
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/local_setup.sh
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/local_setup.zsh
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/local_setup.dsv
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/package.dsv
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/ament_index/resource_index/packages/drone_fleet
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig.cmake
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig-version.cmake
+-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/package.xml

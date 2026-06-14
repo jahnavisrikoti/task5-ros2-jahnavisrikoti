@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000916] (drone_fleet) JobQueued: {'identifier': 'drone_fleet', 'dependencies': OrderedDict()}
+[0.000960] (drone_fleet) JobStarted: {'identifier': 'drone_fleet'}
+[0.008671] (drone_fleet) JobProgress: {'identifier': 'drone_fleet', 'progress': 'cmake'}
+[0.009215] (drone_fleet) Command: {'cmd': ['/usr/bin/cmake', '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/src/drone_fleet', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet'], 'cwd': '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jahnavi-srikoti', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jahnavi-srikoti', 'OLDPWD': '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'SYSTEMD_EXEC_PID': '2573', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jahnavi-srikoti/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jahnavi-srikoti', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jahnavi-srikoti', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/lib/ccache:/home/jahnavi-srikoti/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/jahnavi-srikoti/venv-ardupilot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jahnavi-srikoti-HP-Laptop-15-fc0xxx:@/tmp/.ICE-unix/2536,unix/jahnavi-srikoti-HP-Laptop-15-fc0xxx:/tmp/.ICE-unix/2536', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3a909d46_126c_483f_b302_f8c20d732810', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(venv-ardupilot)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WQCXQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jahnavi-srikoti/ros2_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/jahnavi-srikoti/venv-ardupilot', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jahnavi-srikoti/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099821] (-) TimerEvent: {}
+[0.191899] (drone_fleet) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.199918] (-) TimerEvent: {}
+[0.222684] (drone_fleet) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300031] (-) TimerEvent: {}
+[0.338875] (drone_fleet) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.347677] (drone_fleet) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.348621] (drone_fleet) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.349278] (drone_fleet) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.354080] (drone_fleet) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400121] (-) TimerEvent: {}
+[0.495567] (drone_fleet) StdoutLine: {'line': b'-- Found Python3: /home/jahnavi-srikoti/venv-ardupilot/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.500228] (-) TimerEvent: {}
+[0.580969] (drone_fleet) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600360] (-) TimerEvent: {}
+[0.620137] (drone_fleet) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.666393] (drone_fleet) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.681533] (drone_fleet) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.699656] (drone_fleet) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700454] (-) TimerEvent: {}
+[0.720579] (drone_fleet) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800617] (-) TimerEvent: {}
+[0.805267] (drone_fleet) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.808865] (drone_fleet) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900725] (-) TimerEvent: {}
+[0.915982] (drone_fleet) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.939891] (drone_fleet) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.965668] (drone_fleet) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.000828] (-) TimerEvent: {}
+[1.049199] (drone_fleet) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.066466] (drone_fleet) StdoutLine: {'line': b'-- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[1.100928] (-) TimerEvent: {}
+[1.201189] (-) TimerEvent: {}
+[1.205260] (drone_fleet) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.226192] (drone_fleet) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.233799] (drone_fleet) StdoutLine: {'line': b'-- Build files have been written to: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet\n'}
+[1.244824] (drone_fleet) CommandEnded: {'returncode': 0}
+[1.245329] (drone_fleet) JobProgress: {'identifier': 'drone_fleet', 'progress': 'build'}
+[1.245944] (drone_fleet) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet', '--', '-j8', '-l8'], 'cwd': '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jahnavi-srikoti', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jahnavi-srikoti', 'OLDPWD': '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'SYSTEMD_EXEC_PID': '2573', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jahnavi-srikoti/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jahnavi-srikoti', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jahnavi-srikoti', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/lib/ccache:/home/jahnavi-srikoti/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/jahnavi-srikoti/venv-ardupilot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jahnavi-srikoti-HP-Laptop-15-fc0xxx:@/tmp/.ICE-unix/2536,unix/jahnavi-srikoti-HP-Laptop-15-fc0xxx:/tmp/.ICE-unix/2536', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3a909d46_126c_483f_b302_f8c20d732810', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(venv-ardupilot)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WQCXQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jahnavi-srikoti/ros2_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/jahnavi-srikoti/venv-ardupilot', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jahnavi-srikoti/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.301347] (-) TimerEvent: {}
+[1.304625] (drone_fleet) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/health_monitor.dir/src/health_monitor.cpp.o\x1b[0m\n'}
+[1.304900] (drone_fleet) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/drone_lib.dir/src/Drone.cpp.o\x1b[0m\n'}
+[1.305579] (drone_fleet) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/drone_lib.dir/src/MissionDrone.cpp.o\x1b[0m\n'}
+[1.306302] (drone_fleet) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/drone_lib.dir/src/Vehicle.cpp.o\x1b[0m\n'}
+[1.307247] (drone_fleet) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/drone_lib.dir/src/AutonomousDrone.cpp.o\x1b[0m\n'}
+[1.401454] (-) TimerEvent: {}
+[1.501751] (-) TimerEvent: {}
+[1.602085] (-) TimerEvent: {}
+[1.702435] (-) TimerEvent: {}
+[1.802902] (-) TimerEvent: {}
+[1.903753] (-) TimerEvent: {}
+[2.004099] (-) TimerEvent: {}
+[2.104408] (-) TimerEvent: {}
+[2.141040] (drone_fleet) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX static library libdrone_lib.a\x1b[0m\n'}
+[2.184910] (drone_fleet) StdoutLine: {'line': b'[ 54%] Built target drone_lib\n'}
+[2.204535] (-) TimerEvent: {}
+[2.209301] (drone_fleet) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/fleet_manager.dir/src/fleet_manager.cpp.o\x1b[0m\n'}
+[2.209543] (drone_fleet) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_node.cpp.o\x1b[0m\n'}
+[2.304653] (-) TimerEvent: {}
+[2.404986] (-) TimerEvent: {}
+[2.505331] (-) TimerEvent: {}
+[2.605626] (-) TimerEvent: {}
+[2.706143] (-) TimerEvent: {}
+[2.806453] (-) TimerEvent: {}
+[2.906799] (-) TimerEvent: {}
+[3.007153] (-) TimerEvent: {}
+[3.107502] (-) TimerEvent: {}
+[3.207868] (-) TimerEvent: {}
+[3.308253] (-) TimerEvent: {}
+[3.408604] (-) TimerEvent: {}
+[3.508964] (-) TimerEvent: {}
+[3.609356] (-) TimerEvent: {}
+[3.709759] (-) TimerEvent: {}
+[3.810172] (-) TimerEvent: {}
+[3.910538] (-) TimerEvent: {}
+[4.010903] (-) TimerEvent: {}
+[4.111282] (-) TimerEvent: {}
+[4.211646] (-) TimerEvent: {}
+[4.312004] (-) TimerEvent: {}
+[4.412385] (-) TimerEvent: {}
+[4.512743] (-) TimerEvent: {}
+[4.613117] (-) TimerEvent: {}
+[4.713517] (-) TimerEvent: {}
+[4.813906] (-) TimerEvent: {}
+[4.914271] (-) TimerEvent: {}
+[5.014670] (-) TimerEvent: {}
+[5.115084] (-) TimerEvent: {}
+[5.215449] (-) TimerEvent: {}
+[5.315795] (-) TimerEvent: {}
+[5.416123] (-) TimerEvent: {}
+[5.516438] (-) TimerEvent: {}
+[5.616769] (-) TimerEvent: {}
+[5.717199] (-) TimerEvent: {}
+[5.817589] (-) TimerEvent: {}
+[5.917937] (-) TimerEvent: {}
+[6.018239] (-) TimerEvent: {}
+[6.118560] (-) TimerEvent: {}
+[6.218902] (-) TimerEvent: {}
+[6.319196] (-) TimerEvent: {}
+[6.419578] (-) TimerEvent: {}
+[6.519882] (-) TimerEvent: {}
+[6.620207] (-) TimerEvent: {}
+[6.720535] (-) TimerEvent: {}
+[6.820829] (-) TimerEvent: {}
+[6.921163] (-) TimerEvent: {}
+[7.021554] (-) TimerEvent: {}
+[7.121928] (-) TimerEvent: {}
+[7.222311] (-) TimerEvent: {}
+[7.322678] (-) TimerEvent: {}
+[7.423052] (-) TimerEvent: {}
+[7.523446] (-) TimerEvent: {}
+[7.623796] (-) TimerEvent: {}
+[7.644039] (drone_fleet) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable drone_node\x1b[0m\n'}
+[7.723945] (-) TimerEvent: {}
+[7.824369] (-) TimerEvent: {}
+[7.924764] (-) TimerEvent: {}
+[7.978660] (drone_fleet) StdoutLine: {'line': b'[ 81%] Built target drone_node\n'}
+[8.024888] (-) TimerEvent: {}
+[8.125262] (-) TimerEvent: {}
+[8.225637] (-) TimerEvent: {}
+[8.326039] (-) TimerEvent: {}
+[8.426436] (-) TimerEvent: {}
+[8.526788] (-) TimerEvent: {}
+[8.627128] (-) TimerEvent: {}
+[8.727775] (-) TimerEvent: {}
+[8.828186] (-) TimerEvent: {}
+[8.928581] (-) TimerEvent: {}
+[9.028922] (-) TimerEvent: {}
+[9.129290] (-) TimerEvent: {}
+[9.229651] (-) TimerEvent: {}
+[9.330022] (-) TimerEvent: {}
+[9.430433] (-) TimerEvent: {}
+[9.530782] (-) TimerEvent: {}
+[9.631157] (-) TimerEvent: {}
+[9.731880] (-) TimerEvent: {}
+[9.832248] (-) TimerEvent: {}
+[9.932590] (-) TimerEvent: {}
+[10.032902] (-) TimerEvent: {}
+[10.133236] (-) TimerEvent: {}
+[10.233529] (-) TimerEvent: {}
+[10.333806] (-) TimerEvent: {}
+[10.434138] (-) TimerEvent: {}
+[10.534420] (-) TimerEvent: {}
+[10.634733] (-) TimerEvent: {}
+[10.735127] (-) TimerEvent: {}
+[10.835494] (-) TimerEvent: {}
+[10.838341] (drone_fleet) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable health_monitor\x1b[0m\n'}
+[10.935622] (-) TimerEvent: {}
+[11.035938] (-) TimerEvent: {}
+[11.136377] (-) TimerEvent: {}
+[11.236670] (-) TimerEvent: {}
+[11.307945] (drone_fleet) StdoutLine: {'line': b'[ 90%] Built target health_monitor\n'}
+[11.336790] (-) TimerEvent: {}
+[11.437140] (-) TimerEvent: {}
+[11.537477] (-) TimerEvent: {}
+[11.637822] (-) TimerEvent: {}
+[11.738114] (-) TimerEvent: {}
+[11.838409] (-) TimerEvent: {}
+[11.938777] (-) TimerEvent: {}
+[11.969982] (drone_fleet) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fleet_manager\x1b[0m\n'}
+[12.038898] (-) TimerEvent: {}
+[12.139231] (-) TimerEvent: {}
+[12.239563] (-) TimerEvent: {}
+[12.339866] (-) TimerEvent: {}
+[12.401072] (drone_fleet) StdoutLine: {'line': b'[100%] Built target fleet_manager\n'}
+[12.415981] (drone_fleet) CommandEnded: {'returncode': 0}
+[12.416563] (drone_fleet) JobProgress: {'identifier': 'drone_fleet', 'progress': 'install'}
+[12.426778] (drone_fleet) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet'], 'cwd': '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jahnavi-srikoti', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jahnavi-srikoti', 'OLDPWD': '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'SYSTEMD_EXEC_PID': '2573', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jahnavi-srikoti/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jahnavi-srikoti', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jahnavi-srikoti', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/lib/ccache:/home/jahnavi-srikoti/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/jahnavi-srikoti/venv-ardupilot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jahnavi-srikoti-HP-Laptop-15-fc0xxx:@/tmp/.ICE-unix/2536,unix/jahnavi-srikoti-HP-Laptop-15-fc0xxx:/tmp/.ICE-unix/2536', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3a909d46_126c_483f_b302_f8c20d732810', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(venv-ardupilot)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WQCXQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jahnavi-srikoti/ros2_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/jahnavi-srikoti/venv-ardupilot', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/build/drone_fleet', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jahnavi-srikoti/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.435975] (drone_fleet) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.436741] (drone_fleet) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.436832] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/lib/drone_fleet/drone_node\n'}
+[12.439939] (-) TimerEvent: {}
+[12.447119] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/lib/drone_fleet/fleet_manager\n'}
+[12.457782] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/lib/drone_fleet/health_monitor\n'}
+[12.468259] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/launch/fleet.launch.py\n'}
+[12.478540] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/ament_index/resource_index/package_run_dependencies/drone_fleet\n'}
+[12.489297] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/ament_index/resource_index/parent_prefix_path/drone_fleet\n'}
+[12.499199] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.sh\n'}
+[12.509393] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.dsv\n'}
+[12.520336] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/environment/path.sh\n'}
+[12.530206] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/environment/path.dsv\n'}
+[12.540104] (-) TimerEvent: {}
+[12.540360] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/local_setup.bash\n'}
+[12.551293] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/local_setup.sh\n'}
+[12.561525] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/local_setup.zsh\n'}
+[12.572615] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/local_setup.dsv\n'}
+[12.583087] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/package.dsv\n'}
+[12.593547] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/ament_index/resource_index/packages/drone_fleet\n'}
+[12.604791] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig.cmake\n'}
+[12.614917] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig-version.cmake\n'}
+[12.625275] (drone_fleet) StdoutLine: {'line': b'-- Symlinking: /home/jahnavi-srikoti/drone_project_jazzy(1)/drone_project/ros2_ws/install/drone_fleet/share/drone_fleet/package.xml\n'}
+[12.637832] (drone_fleet) CommandEnded: {'returncode': 0}
+[12.640167] (-) TimerEvent: {}
+[12.651389] (drone_fleet) JobEnded: {'identifier': 'drone_fleet', 'rc': 0}
+[12.652369] (-) EventReactorShutdown: {}
